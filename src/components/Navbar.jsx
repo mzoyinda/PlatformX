@@ -4,12 +4,13 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-<div className="flex justify-between items-center px-4 lg:px-16 pt-8 lg:pt-16">
-    <Link href="/" className="logo">
+<div className="box-border flex justify-between items-center px-4 lg:px-16 pt-8 lg:pt-16">
+    <Link href="/" className="logo flex justify-center items-center font-bold text-2xl"  >
+        <h1>Platform</h1>
         <Image
-            width={150}
-            height={150}
-            src="/platformx.png"
+            width={24}
+            height={24}
+            src="/x.png"
             alt='Platform-X Brand'
         />
     </Link>
@@ -32,13 +33,11 @@ const Navbar = () => {
         </Link>
     </nav>
 
-    <button className="px-4 sm:px-8 py-2 sm:py-4 bg-transparent border-[1px] border-solid border-[#FF4204] text-white rounded-lg hover:bg-white hover:border-transparent hover:text-black">
+    <button className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#FF4204] text-white rounded-lg">
     Register Now
 </button>
 
 </div>
-
-
   )
 }
 
