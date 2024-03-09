@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  @apply box-border relative  bg-[#232529] text-white;
+}
+
+a {
+  @apply font-medium text-base leading-5 text-center no-underline;
+}
+a:hover {
+  @apply font-semibold cursor-pointer;
+}
+
+button {
+  @apply bg-transparent outline-none border-none;
+}
+button:hover {
+  @apply font-semibold cursor-pointer;
+}
+
+img {
+  @apply object-contain;
+}
