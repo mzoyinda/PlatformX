@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
+
   return (
 <div className="box-border md:px-16 flex justify-between items-center">
     <Link href="/" className="logo flex justify-center items-center font-bold text-2xl"  >
@@ -34,9 +35,9 @@ const Navbar = () => {
 
     </nav>
 
-    <button className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
+    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8WdAqQ48qdJ9uw5XH0nJygoChwcsqGic5OdMDMoRNGNt9nQ/viewform" target="_blank" rel="noopener noreferrer" className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
     Register Now
-</button>
+</Link>
 
 </div>
   )
