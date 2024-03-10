@@ -42,7 +42,7 @@ const EventSchedule = () => {
     
 {programs.map((program, index)=>{
     return(
-        <div key={index} className="program pl-8 sm:px-16 py-4 w-[80vw] max-w-[1000px] lg:w-[60vw] flex col-reverse flex-col sm:flex-row sm:justify-between sm:items-center bg-[#42454ce4] text-white rounded-lg shadow-md">
+        <div key={index} className="program pl-8 pr-2 sm:px-16 py-4 w-[80vw] max-w-[1000px] lg:w-[60vw] flex col-reverse flex-col sm:flex-row sm:justify-between sm:items-center bg-[#42454ce4] text-white rounded-lg shadow-md">
           <p className="text-[#aeafb1] font-bold mb-2">{program.time}</p>
           <div className="w-full max-w-[350px] text-left">
           <h3 className="text-lg opacity-80 font-bold mb-4">{program.name} </h3>
