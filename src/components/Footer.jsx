@@ -18,19 +18,19 @@ const Footer = () => {
     </Link>
 
     <nav className="nav__links flex">
-        <Link href="/" className="mx-2 text-[12px] lg:mx-4 text-white">
+        <Link href="/" className="mx-2 text-[12px] md:text-[14px] lg:mx-4 text-white">
             Home
         </Link>
     
-        <Link href="/#speakers" className="mx-2 text-[12px] lg:mx-4 text-white">
+        <Link href="/#speakers" className="mx-2 text-[12px] md:text-[14px] lg:mx-4 text-white">
             Speakers
         </Link>
 
-        <Link href="/#schedule" className="mx-2 text-[12px] lg:mx-4 text-white">
+        <Link href="/#schedule" className="mx-2 text-[12px] md:text-[14px] lg:mx-4 text-white">
             Schedule
         </Link>
 
-        <Link href="/#about" className="mx-2 text-[12px] lg:mx-4 text-white">
+        <Link href="/#about" className="mx-2 text-[12px] md:text-[14px] lg:mx-4 text-white">
             About
         </Link>
     </nav>

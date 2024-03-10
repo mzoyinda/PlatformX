@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-<div className="box-border flex justify-between items-center px-4 lg:px-16 pt-8 lg:pt-16">
+<div className="box-border px-16 flex justify-between items-center">
     <Link href="/" className="logo flex justify-center items-center font-bold text-2xl"  >
         <h1>Platform</h1>
         <Image
