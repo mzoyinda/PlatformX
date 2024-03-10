@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
     </nav>
 
-    <button className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#FF4204] text-white rounded-lg">
+    <button className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
     Register Now
 </button>
 
