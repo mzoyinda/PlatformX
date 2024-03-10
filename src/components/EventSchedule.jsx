@@ -1,5 +1,36 @@
 import React from "react";
 
+
+const programs = [
+    {
+        name: "WELCOME ADDRESSS",
+        time: "10:00 AM - 10:05 AM",
+    },
+    {
+        name: "WELCOME PRESENTATION",
+        time: "10:05 AM - 10:25 AM",
+    },
+    {
+        name: "INTRODUCTION OF SPEAKERS [4X]",
+        time: "10:25 AM - 10:30 AM",
+    },
+    {
+        name: "SPEAKER SESSION - [TEDX STYLE- 4X]",
+        time: "10:30 AM - 1:20 AM",
+    },
+    {
+        name: "WORSHIP & PRAYER",
+        time: "1:20 AM - 1:50 AM",
+    },
+    {
+        name: "ANNOUNCEMENTS",
+        time: "1:50 AM - 1:55 AM",
+    },
+    {
+        name: "NETWORKING & CLOSING REMARK",
+        time: "1:55 AM - 2:00 AM",
+    },
+]
 const EventSchedule = () => {
   return (
     <section className="bg-[#1C1E23] h-auto md:min-h-[600px] flex flex-col justify-start py-32 items-center bg-cover bg-no-repeat">
@@ -9,23 +40,21 @@ const EventSchedule = () => {
         <div className="container mx-auto px-4">
       <div className="flex w-full justify-center items-center flex-col gap-8">
     
-
-        <div className="program px-4 sm:px-16 py-4 w-[80vw] max-w-[1000px] lg:w-[60vw] text-black flex col-reverse flex-col sm:flex-row sm:justify-between sm:items-center bg-white rounded-lg shadow-md">
-          <p className="text-gray-600 font-bold mb-2">10:00 AM - 11:00 AM</p>
-          <div>
-          <h3 className="text-lg mb-4">Program 1 </h3>
-          <p className="text-gray-800">Description of Program 1.</p>
+{programs.map((program, index)=>{
+    return(
+        <div key={index} className="program pl-8 sm:px-16 py-4 w-[80vw] max-w-[1000px] lg:w-[60vw] flex col-reverse flex-col sm:flex-row sm:justify-between sm:items-center bg-[#42454ce4] text-white rounded-lg shadow-md">
+          <p className="text-[#aeafb1] font-bold mb-2">{program.time}</p>
+          <div className="w-full max-w-[350px] text-left">
+          <h3 className="text-lg opacity-80 font-bold mb-4">{program.name} </h3>
+          {/* <p className="text-gray-800">Description of Program 1.</p> */}
           </div>
         </div>
 
-        <div className="program px-4 sm:px-16 py-4 w-[80vw] max-w-[1000px] lg:w-[60vw] text-black flex col-reverse flex-col sm:flex-row sm:justify-between sm:items-center bg-white rounded-lg shadow-md">
-          <p className="text-gray-600 font-bold mb-2">10:00 AM - 11:00 AM</p>
-          <div>
-          <h3 className="text-lg mb-4">Program 1 </h3>
-          <p className="text-gray-800">Description of Program 1.</p>
-          </div>
-        </div>
-        
+    )
+})}
+
+    
+
       </div>
     </div>
 
