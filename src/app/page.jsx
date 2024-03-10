@@ -1,3 +1,4 @@
+import EventSchedule from "@/components/EventSchedule";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
@@ -9,6 +10,7 @@ export default function Home() {
 <div className="w-full max-w-[1800px]">
   <Header/>
   <Speaker/>
+<EventSchedule/>
   <Footer/>
 </div>
  </main>

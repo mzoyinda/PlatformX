@@ -40,7 +40,7 @@ const Speaker = () => {
                 className='rounded-full'
               />
               <h3 className='font-bold text-lg md:text-xl uppercase mt-2'>{speaker.name}</h3>
-              <p className="text-sm">{speaker.role}</p>
+              <p className="text-sm text-[#eddad66c]">{speaker.role}</p>
             </div>
           ))}
         </div>
