@@ -5,12 +5,12 @@ const speakerList = [
     {
         name: "TUNDE ONAKOYA",
         role: "Founder, Chess in slums ",
-        url:"/1.png"
+        url:"/2.png"
     },
     {
         name: "Id Cabasa",
         role: "CEO, Codetunes Africa",
-        url:"/2.png"
+        url:"/1.png"
     },
     {
         name: "JBUMS",

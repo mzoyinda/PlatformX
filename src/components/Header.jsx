@@ -6,7 +6,7 @@ const Header = () => {
     <header className="overflow-hidden px-4 pt-8 lg:pt-16">
       <Navbar />
       <div
-        className={`h-[600px] w-full aspect-[4/3] px-4 md:px-0 flex flex-col text-center items-center justify-center  bg-[url("../../public/banner.png")] bg-cover bg-no-repeat bg-left bg-center`}
+        className={`h-[600px] w-full aspect-[4/3] px-4 md:px-0 flex flex-col text-center items-center justify-center  bg-[url("../../public/banner.png")] bg-cover bg-no-repeat md:bg-left bg-center`}
       >
         <div className="max-w-[500px] md:max-w-[650px] flex flex-col items-center justify-center">
           <h2 className="text-[55px] tracking-wide leading-[50px] md:text-[60px] lg:text-[70px] md:leading-[70px] font-bold">
