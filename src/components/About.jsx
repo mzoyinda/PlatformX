@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-[#1C1E23] w-full h-auto md:min-h-[600px] flex flex-col justify-start py-16 items-center bg-cover bg-no-repeat">
+    <section id='about' className="bg-[#1C1E23] w-full h-auto md:min-h-[600px] flex flex-col justify-start py-16 items-center bg-cover bg-no-repeat">
       <div className="flex flex-col lg:flex-row max-w-[1200px]">
       <h3 className="mb-10 font-semibold tracking-wide leading-[55px] self-center text-5xl lg:w-[30vw] mb[-5px] ">About <br/>  <span className="flex">Platform 
         <Image

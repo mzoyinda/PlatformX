@@ -20,6 +20,10 @@ const Navbar = () => {
             Home
         </Link>
     
+        <Link href="/#about" className="mx-2 lg:mx-4 text-white">
+            About
+        </Link>
+       
         <Link href="/#speakers" className="mx-2 lg:mx-4 text-white">
             Speakers
         </Link>
@@ -28,9 +32,6 @@ const Navbar = () => {
             Schedule
         </Link>
 
-        <Link href="/#about" className="mx-2 lg:mx-4 text-white">
-            About
-        </Link>
     </nav>
 
     <button className="px-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
