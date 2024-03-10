@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="bg-[#1C1E23] h-auto md:min-h-[600px] flex flex-col justify-start py-16 items-center bg-cover bg-no-repeat">
       <div className="flex flex-col lg:flex-row">
-      <h3 className="mb-10 font-semibold tracking-wide leading-[55px] self-center text-5xl w-[30vw] mb[-5px] ">About <br/>  <span className="flex">Platform 
+      <h3 className="mb-10 font-semibold tracking-wide leading-[55px] self-center text-5xl lg:w-[30vw] mb[-5px] ">About <br/>  <span className="flex">Platform 
         <Image
             width={40}
             height={32}
