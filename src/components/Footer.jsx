@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="box-border flex flex-col gap-y-12 justify-between items-center px-4 py-8 lg:px-16 pt-8 lg:pt-16 bg-[#1C1E23]">
+    <div className="box-border flex flex-col gap-y-12 justify-between items-center px-4 py-8 lg:px-16 pt-8 lg:pt-16 bg-[#232529] ">
     <Link href="/" className="logo flex justify-center items-center font-bold text-2xl"  >
         <h1>Platform</h1>
         <Image

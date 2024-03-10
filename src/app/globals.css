@@ -29,5 +29,5 @@ button:hover {
 }
 
 img {
-  @apply object-contain;
+  @apply object-cover;
 }
