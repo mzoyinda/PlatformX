@@ -19,7 +19,7 @@ const Header = () => {
             as we engage in thoughtful conversations on pressing societal
             issues, rooted in values and aiming for meaningful impact
           </p>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8WdAqQ48qdJ9uw5XH0nJygoChwcsqGic5OdMDMoRNGNt9nQ/viewform" target="_blank" rel="noopener noreferrer" className="px-4 mt-4 sm:px-8 py-2 text-sm md:text-base sm:py-4 hover:bg-transparent hover:border-[1px] hover:border-solid hover:border-[#fa3f01] bg-[#fa3f01] text-white rounded-lg">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8WdAqQ48qdJ9uw5XH0nJygoChwcsqGic5OdMDMoRNGNt9nQ/viewform" target="_blank" rel="noopener noreferrer" className="mt-4 px-8 text-sm md:text-base py-4 hover:bg-transparent hover:border-[1px] hover:border-solid hover:border-[#fa3f01] bg-[#fa3f01] text-white rounded-lg">
             Register Now
           </Link>
         </div>
