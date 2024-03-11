@@ -35,7 +35,7 @@ const Navbar = () => {
 
     </nav>
 
-    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8WdAqQ48qdJ9uw5XH0nJygoChwcsqGic5OdMDMoRNGNt9nQ/viewform" target="_blank" rel="noopener noreferrer" className="px-4 sm:px-8 text-sm md:text-base py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
+    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8WdAqQ48qdJ9uw5XH0nJygoChwcsqGic5OdMDMoRNGNt9nQ/viewform" target="_blank" rel="noopener noreferrer" className="px-4 sm:px-8 py-3 text-sm md:text-base sm:py-4 bg-transparent border-[1px] border-solid border-[#fa3f01] hover:bg-[#fa3f01] text-white rounded-lg">
     Register Now
 </Link>
 
