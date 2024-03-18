@@ -45,7 +45,7 @@ const EventSchedule = () => {
           width={200}
           height={200}
           alt="coming soon"
-          src="/coming-soon.png"
+          src="/csoon.png"
           className='rounded-full mr-8'
           />
             
